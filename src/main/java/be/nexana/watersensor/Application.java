@@ -46,8 +46,8 @@ public class Application {
                 // print out the data received to the console
                 try {
                     console.println("[HEX DATA]   " + event.getHexByteString());
-                    console.println("[BYTEBUFFER STRING DATA] " + event.getByteBuffer().toString());
-                    console.println("[AVAIL READ DATA] " + event.getReader().available());
+//                    console.println("[BYTEBUFFER STRING DATA] " + event.getByteBuffer().toString());
+//                    console.println("[AVAIL READ DATA] " + event.getReader().available());
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
